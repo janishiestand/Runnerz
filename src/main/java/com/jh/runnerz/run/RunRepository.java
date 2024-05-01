@@ -44,7 +44,7 @@ public class RunRepository {
     @PostConstruct
     private void init() {
         runs.add(new Run(2, "Monday Run", LocalDateTime.now(),
-                LocalDateTime.now().plus(30, ChronoUnit.HOURS), 3, Location.INDOOR));
+                LocalDateTime.now().plus(1, ChronoUnit.HOURS), 3, Location.INDOOR));
     }
 
 }
